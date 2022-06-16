@@ -1,5 +1,5 @@
-let answer = false;
 const canWin = (num) => {
+  let answer = false;
   let options = [2, 3, 5];
   for (let i = 0; i < options.length; i++) {
     if (num - options[i] === 0 || num - options[i] === 1) {
